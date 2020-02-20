@@ -1,4 +1,5 @@
 body{
+    margin:0px;
     font-family: 'Roboto', sans-serif;
 }
 h1{
@@ -14,8 +15,56 @@ h1{
     float: left;
     margin-left:5%;
     padding-left:2%;
+    height:100%;
 }
-
+section{
+    height:500px;
+    margin-bottom: 100px;
+    margin-top:50px;
+}
 .half-width img{
     width:100%;
+}
+.first-portion{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.second-portion{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height:500px;
+}
+.special{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.third-portion{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#delivary{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,red);
+    border-image-slice: 1;
+}
+#payment{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, lightblue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
